@@ -1,0 +1,75 @@
+{
+  "name": "uniapp-cli",
+  "version": "2.7.14-2020061814",
+  "private": false,
+  "displayName": "uni-app\u7f16\u8bd1",
+  "__category": "App\u63d2\u4ef6",
+  "__from": "HBuilderX",
+  "description": "uni-app\u7f16\u8bd1\u5230\u5404\u7aef\u7684\u7f16\u8bd1\u5668",
+  "keywords": [
+    "hbuilderx",
+    "uniapp-cli"
+  ],
+  "author": "hbuilderx",
+  "license": "Copyright\u00a9 DCloud Co.,Ltd",
+  "extensionDependencies": [
+    "npm",
+    "weapp-tools"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app-plus": "^2.0.0-27920200618001",
+    "@dcloudio/uni-automator": "^2.0.0-27920200618001",
+    "@dcloudio/uni-h5": "^2.0.0-27920200618001",
+    "@dcloudio/uni-mp-360": "^2.0.0-27920200618001",
+    "@dcloudio/uni-mp-alipay": "^2.0.0-27920200618001",
+    "@dcloudio/uni-mp-baidu": "^2.0.0-27920200618001",
+    "@dcloudio/uni-mp-qq": "^2.0.0-27920200618001",
+    "@dcloudio/uni-mp-toutiao": "^2.0.0-27920200618001",
+    "@dcloudio/uni-mp-weixin": "^2.0.0-27920200618001",
+    "@dcloudio/uni-quickapp-webview": "^2.0.0-27920200618001",
+    "@dcloudio/uni-stat": "^2.0.0-27920200618001",
+    "flyio": "^0.6.2",
+    "vue": "^2.6.11",
+    "vue-class-component": "^6.3.2",
+    "vue-property-decorator": "^7.2.0",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-typescript": "^7.2.0",
+    "@dcloudio/types": "^1.0.2",
+    "@dcloudio/uni-cli-shared": "^2.0.0-27920200618001",
+    "@dcloudio/uni-migration": "^2.0.0-27920200618001",
+    "@dcloudio/uni-template-compiler": "^2.0.0-27920200618001",
+    "@dcloudio/vue-cli-plugin-hbuilderx": "^2.0.0-27920200618001",
+    "@dcloudio/vue-cli-plugin-uni": "^2.0.0-27920200618001",
+    "@dcloudio/vue-cli-plugin-uni-optimize": "^2.0.0-27920200618001",
+    "@dcloudio/webpack-uni-mp-loader": "^2.0.0-27920200618001",
+    "@dcloudio/webpack-uni-pages-loader": "^2.0.0-27920200618001",
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-typescript": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "babel-plugin-import": "^1.11.0",
+    "caniuse-lite": "^1.0.30001084",
+    "less-loader": "^4.1.0",
+    "module-alias": "^2.1.0",
+    "postcss-comment": "^2.0.0",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^8.0.2",
+    "stylus-loader": "^3.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "Android >= 4",
+    "ios >= 8"
+  ],
+  "_moduleAliases": {
+    "typescript": "../compile-typescript/node_modules/typescript",
+    "less": "../compile-less/node_modules/less",
+    "node-sass": "../compile-node-sass/node_modules/node-sass-china",
+    "stylus": "../compile-stylus/node_modules/stylus"
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "launcher",
+    "displayName":"App真机运行",
+    "__category":"App插件",
+    "__from": "HBuilderX",
+    "version": "1.0.5-2020061819",
+    "extensionDependencies": ["node_modules"],
+    "license": "Copyright© DCloud Co.,Ltd",
+    "description": "App开发真机运行",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "hbuilderx",
+      "launcher",
+      "runtime"
+    ],
+    "author": "hbuilderx"
+}
